@@ -10,23 +10,28 @@ using System.Windows.Forms;
 
 namespace Projeto_Integrador
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 Cadastrofuncionario = new Form2();           
-            Cadastrofuncionario.ShowDialog();
+            Form4 Alterarsenha = new Form4();
+            Alterarsenha.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Form3 entrar = new Form3();
-            entrar.ShowDialog();
+            Form5 menu = new Form5();
+            menu.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

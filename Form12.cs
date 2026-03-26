@@ -10,23 +10,24 @@ using System.Windows.Forms;
 
 namespace Projeto_Integrador
 {
-    public partial class Form1 : Form
+    public partial class Form12 : Form
     {
-        public Form1()
+        public Form12()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+       
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form2 Cadastrofuncionario = new Form2();           
-            Cadastrofuncionario.ShowDialog();
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Form3 entrar = new Form3();
-            entrar.ShowDialog();
+            Form11 UsoFiltrado = new Form11();
+            UsoFiltrado.ShowDialog();
         }
     }
 }
