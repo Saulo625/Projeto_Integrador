@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Projeto_Integrador
 {
-    public partial class Form6 : Form
+    public partial class Form8 : Form
     {
-        public Form6()
+        public Form8()
         {
             InitializeComponent();
-        } 
-
-        private void pictureBox1_Click_2(object sender, EventArgs e)
-        {
-            Close();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e) //O botao voltar retorna para a tela anterior (Menu)
+        {
+            Close(); //Fecha a tela atual
+        }
+
+       
     }
 }

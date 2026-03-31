@@ -17,9 +17,9 @@ namespace Projeto_Integrador
             InitializeComponent();
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
+        private void pictureBox1_Click_1(object sender, EventArgs e) //O botao voltar retorna para a tela anterior (Menu)
         {
-            Close();
+            Close(); //Fecha a tela atual
         }
     }
 }

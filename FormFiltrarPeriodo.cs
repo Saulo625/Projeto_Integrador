@@ -19,12 +19,12 @@ namespace Projeto_Integrador
 
        
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e) //Botao que retorna para o FormUsoSistema
         {
-            Close();
+            Close(); //responsavel por fechar a tela
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //O botao Filtrar filtra a informacao desejada e abre a mesma tela anteriror porem com os dados filtrados.
         {
             Form11 UsoFiltrado = new Form11();
             UsoFiltrado.ShowDialog();

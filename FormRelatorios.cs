@@ -18,21 +18,21 @@ namespace Projeto_Integrador
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //O botao Historico de Eventos abre o FormHistoricoEventos
         {
             Form10 HistoricodEventos = new Form10();
             HistoricodEventos.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //O botao Uso do sistema abre o FormUsoSistema
         {
             Form11 UsodSistema = new Form11();
             UsodSistema.ShowDialog();
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
+        private void pictureBox1_Click_1(object sender, EventArgs e) //O botao voltar retorna para a tela anterior (Menu)
         {
-            Close();
+            Close(); //Fecha a tela atual
         }
     }
 }

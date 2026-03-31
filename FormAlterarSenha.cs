@@ -17,14 +17,15 @@ namespace Projeto_Integrador
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //Botao Confirmar salvar a nova senha e retorna para a tela de Login
         {
-            Close();
+            Close(); //responsavel por fechar a tela atual
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e) //Botao que retorna para a tela de login (porem sem alteracoes feitas)
         {
-            Close();
+            Close(); //Responsavel por fechar a tela 
         }
+
     }
 }
